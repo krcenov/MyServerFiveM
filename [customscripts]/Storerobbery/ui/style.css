@@ -1,0 +1,52 @@
+html { overflow-x: hidden !important; overflow-y: hidden !important; background-color: transparent !important;}
+
+body {background-color: transparent !important;}
+
+
+.alert {
+	position: absolute;
+	border: 1px solid #666;
+	height: 20px;
+	width: 100%;
+}
+
+div {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#success {
+    background-color: #0984e3;
+    text-align: center;
+    font-weight: 400;
+    width: 100%;
+}
+
+#error {
+    background-color: #e74c3c;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    width: 250px;
+    bottom : 200px;
+}
+
+.alert .in {
+  animation: fill 9s linear 1;
+  height: 100%;
+  background-color: blue;
+}
+
+@keyframes fill {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}

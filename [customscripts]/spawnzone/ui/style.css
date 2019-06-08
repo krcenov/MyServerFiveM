@@ -1,0 +1,81 @@
+html { overflow-x: hidden !important; overflow-y: hidden !important; background-color: transparent !important;}
+
+body {background-color: transparent !important;}
+
+@font-face 
+{
+  font-family: Demonized;
+  src: url(Demonized.ttf);
+}
+.centerofpage 
+{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#SpawnMenuFrame
+{
+	display:none;
+	background-color:black;
+	width: 1300px;
+	height: 700px;
+}
+.Cell
+{
+	position:relative;
+	top:-1px;
+	width:433px;
+	height:215px;
+}
+.Thumbnail
+{
+	position:relative;
+	background-size:100% 100%;
+	height:150px;
+	width:300px;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#Spawn1
+{
+	background-image: url('../ui/spawnimg/Spawn1.png');
+}
+#Spawn2
+{
+	background-image: url('../ui/spawnimg/Spawn2.png');
+}
+#Spawn3
+{
+	background-image: url('../ui/spawnimg/Spawn3.png');
+}
+#Spawn4
+{
+	background-image: url('../ui/spawnimg/Spawn4.png');
+}
+#Spawn5
+{
+	background-image: url('../ui/spawnimg/Spawn5.png');
+}
+#Spawn6
+{
+	background-image: url('../ui/spawnimg/Spawn6.png');
+}
+#Spawn7
+{
+	background-image: url('../ui/spawnimg/Spawn7.png');
+}
+#Spawn8
+{
+	background-image: url('../ui/spawnimg/Spawn8.png');
+}
+#Spawn9
+{
+	background-image: url('../ui/spawnimg/Spawn9.png');
+}
+

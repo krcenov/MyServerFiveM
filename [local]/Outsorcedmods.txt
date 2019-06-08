@@ -1,0 +1,18 @@
+[Release] Radargun v1.0
+https://forum.fivem.net/t/release-radargun-v1-0/179682
+[Release/Edit] New GUI and location for Wraith Radar
+https://forum.fivem.net/t/release-edit-new-gui-and-location-for-wraith-radar/529616
+vMenu v3.0.3 - A server-sided menu including (almost) full permissions support
+https://forum.fivem.net/t/vmenu-v3-0-3-a-server-sided-menu-including-almost-full-permissions-support/88868
+[Release] Simplified CarHud
+https://forum.fivem.net/t/release-simplified-carhud/108175
+[Release] Seatbelt with sounds
+https://forum.fivem.net/t/release-seatbelt-with-sounds/449900
+[Release] pNotify - In-game JS Notifications Using NOTY
+https://forum.fivem.net/t/release-pnotify-in-game-js-notifications-using-noty/20659
+[Release] FRFuel [v1.7.0]
+https://forum.fivem.net/t/release-frfuel-v1-7-0/5467
+[Release] ELS FiveM | Server Sync | Lights | Sirens | Custom Patterns
+https://forum.fivem.net/t/release-els-fivem-server-sync-lights-sirens-custom-patterns/64048
+[Release] Simple 911 Command (With Location, Map Blip & Discord Webhook)
+https://forum.fivem.net/t/release-simple-911-command-with-location-map-blip-discord-webhook/303775

@@ -1,0 +1,124 @@
+html { overflow-x: hidden !important; overflow-y: hidden !important; background-color: transparent !important;}
+
+body {background-color: transparent !important;}
+
+@font-face 
+{
+  font-family: Demonized;
+  src: url(Demonized.ttf);
+}
+.Cell
+{
+	width:360px;
+	height:173px;
+}
+.centerofpage 
+{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#TabletBody
+{
+	display:none;
+	background-image: url('../ui/bgimage.png');
+	background-size:100% 100%;
+	width: 1300px;
+	height: 700px;
+	border-radius: 25px;
+}
+#Clock
+{
+	position:relative;
+	color:white;
+	font-family: Demonized;
+	left:86%;
+	top:52px;
+	height:20px;
+	width:90px;
+}
+#Logo
+{
+	 z-index: 10;
+	background-image: url('../ui/logo.png');
+	background-size:100% 100%;
+	position:relative;
+	height:100px;
+	width:100px;
+	left:10px;
+}
+#BackButton
+{
+	 z-index: 10;
+	background-image: url('../ui/backbtn.png');
+	background-size:100% 100%;
+	position:relative;
+	height:40px;
+	width:29px;
+	top:487px;
+	left:48%;
+}
+#HomeButton
+{
+	z-index: 10;
+	background-image: url('../ui/homebtn.png');
+	background-size:100% 100%;
+	position:relative;
+	height:40px;
+	width:29px;
+	top:447px;
+	left:52%;
+}
+#Content
+{
+	position:relative;
+	width:1076px;
+	height:521px;
+	top:-120px;
+	left: 8px;
+	margin: auto;
+}
+#Slot1
+{
+	position:relative;
+	background-image: url('../ui/players.png');
+	background-size:100% 100%;
+	height:100px;
+	width:100px;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#Slot2
+{
+	position:relative;
+	background-image: url('../ui/rules.png');
+	background-size:100% 100%;
+	height:100px;
+	width:100px;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#Slot3
+{
+	position:relative;
+	background-image: url('../ui/features.png');
+	background-size:100% 100%;
+	height:100px;
+	width:100px;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}

@@ -37,40 +37,6 @@ document.onkeyup = function (data)
         $.post('http://mgtablet/NUIFocusOff', JSON.stringify({}));
     }
 };
-Slot1Clickable();
-Slot2Clickable();
-Slot3Clickable();
-BackButton.onclick = function() 
-{
-	document.getElementById("Content").style.backgroundImage = "url('')";
-    document.getElementById("Content").innerHTML = contentcode;
-	if(contentcode == contentcodebydefault)
-	{
-		Slot1Clickable();
-		Slot2Clickable();
-		Slot3Clickable();
-	}
-};
-HomeButton.onclick = function() 
-{
-    document.getElementById("Content").innerHTML = contentcodebydefault;
-	Slot1Clickable();
-	Slot2Clickable();
-	Slot3Clickable();
-	document.getElementById("Content").style.backgroundImage = "url('')";
-};
-function startTime() 
-{
-	var today = new Date().toUTCString();
-	var time = today.substring(17,22);
-	document.getElementById('Clock').innerHTML = time;
-	var t = setTimeout(startTime, 500);
-}
-function checkTime(i) 
-{
-  if (i < 10) {i = "0" + i};
-  return i;
-}
 function Slot1Clickable() {
 	Slot1 = document.getElementById('Slot1');
 	Slot1.onclick = function() 
@@ -96,7 +62,7 @@ function Slot2Clickable() {
 	};
 }
 function Slot3Clickable() {
-	Slot3.onclick = document.getElementById('Slot2');
+	Slot3 = document.getElementById('Slot3');
 	Slot3.onclick = function() 
 	{
 		contentcode = document.getElementById("Content").innerHTML;
@@ -106,3 +72,37 @@ function Slot3Clickable() {
 		
 	};
 }
+BackButton.onclick = function() 
+{
+	document.getElementById("Content").style.backgroundImage = "url('')";
+    document.getElementById("Content").innerHTML = contentcode;
+	if(contentcode == contentcodebydefault)
+	{
+		Slot1Clickable();
+		Slot2Clickable();
+		Slot3Clickable();
+	}
+};
+HomeButton.onclick = function() 
+{
+    document.getElementById("Content").innerHTML = contentcodebydefault;
+	document.getElementById("Content").style.backgroundImage = "url('')";
+	Slot1Clickable();
+	Slot2Clickable();
+	Slot3Clickable();
+};
+function startTime() 
+{
+	var today = new Date().toUTCString();
+	var time = today.substring(17,22);
+	document.getElementById('Clock').innerHTML = time;
+	var t = setTimeout(startTime, 500);
+}
+function checkTime(i) 
+{
+  if (i < 10) {i = "0" + i};
+  return i;
+}
+Slot1Clickable();
+Slot2Clickable();
+Slot3Clickable();

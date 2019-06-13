@@ -45,6 +45,7 @@ Citizen.CreateThread(function()
 		Citizen.Wait(1)
 		if IsControlJustReleased(0, 166) then
 				local onlinePlayers = getPlayers()
+				stringarr =""
 				for _, i in ipairs(onlinePlayers) do
 				local pnames = GetPlayerName(i)
 					stringarr = stringarr .. pnames .. ","
@@ -60,8 +61,8 @@ RegisterNUICallback('NUIFocusOff', function()
 	TriggerEvent("HideTablet")
 end)
 RegisterNUICallback('SendPlayerList', function()
-	stringarr = "Secondtime,"
 	local onlinePlayers = getPlayers()
+	stringarr = ""
 		for _, i in ipairs(onlinePlayers) do
 		local pnames = GetPlayerName(i)
 			stringarr = stringarr .. pnames .. ","

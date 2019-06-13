@@ -219,7 +219,7 @@ end)
 
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(1)
+		Citizen.Wait(0)
 		local model = GetEntityModel(GetPlayerPed(PlayerId())) .. ""
 		if adminskins[model] then
 			if not admincalleduiopen then
@@ -241,7 +241,7 @@ end)
 
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(1)
+		Citizen.Wait(0)
 		local pos = GetEntityCoords(GetPlayerPed(-1), true)
 		
 		--FrontGateMessage
